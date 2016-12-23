@@ -7,7 +7,7 @@ Processing large volumes of mostly-irrelevant data to find the pieces that are u
 
 This is a pretty niche use, but it can also serve as an example of a medium-sized machine learning project implemented in Torch - it's got a few interesting bells and whistles that might be interesting to people coping with limited hardware, including a dynamic-length sequence dataloader and a sequence shuffler that respects bucketing. Most significantly, it grabs the states of two LSTM-based language models (not just their outputs) as they process sequences, and uses that as input to a feedforward classifier that determines whether the next-predicted-word should be in the set of known keywords.
 
-Within the next couple of days, I'll be uploading copies of a paper written on this model, and the data used for the experiment that paper describes, to a separate repository, which I will link here for the curious.
+Within the next couple of weeks, I'll be uploading copies of a paper written on this model, and the data used for the experiment that paper describes, to a separate repository, which I will link here for the curious.
 
 ## Requirements:
 &nbsp;&nbsp;[word2vec](https://github.com/dav/word2vec)  
